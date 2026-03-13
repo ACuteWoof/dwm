@@ -8,13 +8,14 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Monaspace Radon:size=10" };
 static const char dmenufont[]       = "Monaspace Radon:size=10";
 static const char col_bg[]          = "#1d2021";
+static const char col_bg1[]         = "#504945";
 static const char col_fg[]          = "#d4be98";
 static const char col_cyan[]        = "#7daea3";
 static const char col_green[]       = "#a9b665";
 static const char col_yellow[]      = "#d8a657";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_fg, col_bg, col_bg },
+	[SchemeNorm] = { col_fg, col_bg, col_bg1 },
 	[SchemeSel]  = { col_green, col_bg,  col_yellow  },
 };
 
