@@ -62,10 +62,10 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, NULL };
 static const char *termcmd[]  = { "uxterm", NULL };
 static const char *browsercmd[] = { "qutebrowser", NULL };
 static const char *flameshot[] = { "flameshot", "gui", NULL };
-static const char *zathuracmd[] = { "$HOME/.local/share/scripts/view.sh", NULL };
-static const char *mpvcmd[] = { "$HOME/.local/share/scripts/yt.sh", NULL };
-static const char *addbookmark[] = { "$HOME/.local/share/scripts/addbookmark.sh", NULL };
-static const char *showbookmarks[] = { "$HOME/.local/share/scripts/bookmark.sh", NULL };
+static const char *zathuracmd[] = { "/home/acutewoof/.local/share/scripts/view.sh", NULL };
+static const char *mpvcmd[] = { "/home/acutewoof/.local/share/scripts/yt.sh", NULL };
+static const char *addbookmark[] = { "/home/acutewoof/.local/share/scripts/addbookmark.sh", NULL };
+static const char *showbookmarks[] = { "/home/acutewoof/.local/share/scripts/bookmark.sh", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
