@@ -15,7 +15,7 @@ static const char col_yellow[]      = "#d8a657";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_fg, col_bg, col_bg },
-	[SchemeSel]  = { col_bg, col_green,  col_yellow  },
+	[SchemeSel]  = { col_green, col_bg,  col_yellow  },
 };
 
 /* tagging */
