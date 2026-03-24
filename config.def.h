@@ -71,6 +71,7 @@ static const char *addbookmark[] = { "/home/acutewoof/.local/share/scripts/addbo
 static const char *showbookmarks[] = { "/home/acutewoof/.local/share/scripts/bookmark.sh", NULL };
 static const char *findman[] = { "/home/acutewoof/.local/share/scripts/find-man.sh", NULL };
 static const char *findfile[] = { "/home/acutewoof/.local/share/scripts/find-file.sh", NULL };
+static const char *findnotes[] = { "/home/acutewoof/.local/share/scripts/find-file.sh", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -84,6 +85,7 @@ static const Key keys[] = {
 	{ MODKEY,           		XK_w,      spawn,          {.v = addbookmark} },
 	{ MODKEY,           		XK_m,      spawn,          {.v = findman} },
 	{ MODKEY,           		XK_u,      spawn,          {.v = findfile} },
+	{ MODKEY,           		XK_n,      spawn,          {.v = findnotes} },
 	{ MODKEY|ShiftMask,             XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
