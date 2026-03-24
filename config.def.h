@@ -71,7 +71,7 @@ static const char *addbookmark[] = { "/home/acutewoof/.local/share/scripts/addbo
 static const char *showbookmarks[] = { "/home/acutewoof/.local/share/scripts/bookmark.sh", NULL };
 static const char *findman[] = { "/home/acutewoof/.local/share/scripts/find-man.sh", NULL };
 static const char *findfile[] = { "/home/acutewoof/.local/share/scripts/find-file.sh", NULL };
-static const char *findnotes[] = { "/home/acutewoof/.local/share/scripts/find-file.sh", NULL };
+static const char *findnotes[] = { "/home/acutewoof/.local/share/scripts/find-notes.sh", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
