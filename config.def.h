@@ -73,6 +73,7 @@ static const char *findman[] = { "/home/acutewoof/.local/share/scripts/find-man.
 static const char *findfile[] = { "/home/acutewoof/.local/share/scripts/find-file.sh", NULL };
 static const char *findnotes[] = { "/home/acutewoof/.local/share/scripts/find-notes.sh", NULL };
 static const char *findpass[] = { "/home/acutewoof/.local/share/scripts/find-pass.sh", NULL };
+static const char *findrfc[] = { "/home/acutewoof/.local/share/scripts/find-rfc.sh", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -88,6 +89,7 @@ static const Key keys[] = {
 	{ MODKEY,           		XK_u,      spawn,          {.v = findfile} },
 	{ MODKEY,           		XK_n,      spawn,          {.v = findnotes} },
 	{ MODKEY,           		XK_p,      spawn,          {.v = findpass} },
+	{ MODKEY,           		XK_t,      spawn,          {.v = findrfc} },
 	{ MODKEY|ShiftMask,             XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
