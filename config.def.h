@@ -63,7 +63,6 @@ static const Rule rules[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, NULL };
 static const char *termcmd[]  = { "uxterm", NULL };
-static const char *browsercmd[] = { "qutebrowser", NULL };
 static const char *flameshot[] = { "flameshot", "gui", NULL };
 static const char *zathuracmd[] = { "/home/acutewoof/.local/share/scripts/view.sh", NULL };
 static const char *mpvcmd[] = { "/home/acutewoof/.local/share/scripts/yt.sh", NULL };
@@ -74,6 +73,7 @@ static const char *findfile[] = { "/home/acutewoof/.local/share/scripts/find-fil
 static const char *findnotes[] = { "/home/acutewoof/.local/share/scripts/find-notes.sh", NULL };
 static const char *findpass[] = { "/home/acutewoof/.local/share/scripts/find-pass.sh", NULL };
 static const char *findrfc[] = { "/home/acutewoof/.local/share/scripts/find-rfc.sh", NULL };
+static const char *browsercmd[] = { "/home/acutewoof/.local/share/scripts/browse.sh", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
